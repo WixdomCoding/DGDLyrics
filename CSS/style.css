@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Archivo";
+    src: url("./Fonts/ArchivoNarrow-VariableFont_wght.ttf") ;
+  }
+
+html, body {
+    font-family: "Archivo", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#top {
+    color: #fafafa;
+    display: flex;
+    justify-content: start;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: #333;
+}
+
+#navoptions {
+    font-size: 30px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navoptions a {
+    padding: 2rem;
+}
+
+#navoptions a:hover {
+    background-color: #999;
+    border-radius: 2rem;
+    border: solid #333;
+    border-right: none;
+    border-left: none;
+    color: #333;
+}
+
+
+#navtitle {
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+
+#navtitle h1 {
+    margin-left: 34px;
+}
+
+a {
+    color: inherit;
+    font-size: larger;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+img {
+    margin-top: 10px;
+    border: solid #333 2px;
+    border-radius: 1rem;
+
+}
+
+figure {
+    margin: inherit;
+}
+
+figcaption {
+    font-size: 27px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
