@@ -1,0 +1,58 @@
+body {
+    background-image: url("../IMG/aboutback2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#aboutcontainer {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20rem;
+    position: relative;
+    margin-bottom: 10rem;
+    
+}
+
+#abouttitle {
+    position: absolute;
+    top: -103px;
+    border: solid #12a9ae;
+    border-bottom: none;
+    font-size: larger;
+    background-color: rgb(39, 189, 195, 0.95);
+    width: 35%;
+    border-radius: 1rem 1rem 0 0;
+    height: max-content;
+    
+}
+
+#title-wrapper h1 {
+    opacity: 100%;
+}
+
+#abouttext {
+    text-align: start;
+    border: #12a9ae solid;
+    width: fit-content;
+    padding: 3rem 20% 1rem 20%;
+    background-color: rgb(39, 189, 195, 0.95);
+    border-radius: 1rem;
+}
+
+#abouttext p {
+    font-size: 18px;
+}
+
+
+#abouttext b {
+    font-size: 24px;
+}
+
+#signoff {
+    text-align: center;
+}

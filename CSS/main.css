@@ -1,0 +1,13 @@
+body {
+    background-image: url("../IMG/aboutback4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#stacker {
+    background-color: rgba(243, 243, 243, 0.4);
+    border-radius: 0 0 1rem 1rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
