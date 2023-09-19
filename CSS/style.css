@@ -33,7 +33,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 #navoptions a {
@@ -51,7 +51,7 @@ body {
 
 
 #navtitle {
-    font-size: x-large;
+    font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,4 +87,47 @@ figcaption {
     justify-content: center;
     border-top: solid #333;
     padding-top: 2rem;
+}
+
+@media only screen and (max-width: 890px) {
+    #top {
+        color: #fafafa;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        background-color: #333;
+    }
+
+    #navtitle {
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #navoptions {
+        font-size: 30px;
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    #navoptions {
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        justify-content: space-evenly;
+        padding-bottom: 1rem;
+    }
 }
