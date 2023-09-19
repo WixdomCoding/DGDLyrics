@@ -171,3 +171,14 @@
         margin-top: 34.6rem;
     }
 }
+
+@media only screen and (max-width: 456px) {
+    .parent {
+        margin-top: 38rem;
+    }
+}
+@media only screen and (max-width: 301px) {
+    .parent {
+        margin-top: 45rem;
+    }
+}
