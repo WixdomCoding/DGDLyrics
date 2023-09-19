@@ -85,4 +85,6 @@ figcaption {
     text-align: center;
     display: flex;
     justify-content: center;
+    border-top: solid #333;
+    padding-top: 2rem;
 }
