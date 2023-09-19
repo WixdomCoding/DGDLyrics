@@ -124,7 +124,7 @@
 
 @media only screen and (max-width: 890px) {
     .parent {
-        margin-top: 38rem;
+        margin-top: 34.6rem;
     }
 }
 
@@ -133,7 +133,7 @@
         margin-top: auto;
     }
     .parent {
-        margin-top: 38rem;
+        margin-top: 34.6rem;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(25, 1fr);
@@ -168,6 +168,6 @@
 
 @media only screen and (max-width: 490px) {
     .parent {
-        margin-top: 43rem;
+        margin-top: 34.6rem;
     }
 }
