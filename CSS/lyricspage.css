@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Archivo";
+    src: url("./Fonts/ArchivoNarrow-VariableFont_wght.ttf") ;
+  }
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#top {
+    margin-top: 2rem;
+
+}
+
+a {
+    font-family: "Archivo", sans-serif;
+    color: inherit;
+    font-size: 3rem;
+    font-weight: 900;
+    text-decoration: none;
+    padding-left: 2rem;
+}
+
+#split {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#sideright {
+    background-color: beige;
+    width: 40vw;
+}
+
+#lyricsholder {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+
+
+#lyrics {
+    display: flex;
+    width: 50%;
+    background-color: rgb(39, 189, 195, 0.95);
+}
+
+#lyrics p {
+    letter-spacing: 1px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
