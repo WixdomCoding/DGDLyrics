@@ -45,14 +45,81 @@ body {
 }
 
 #abouttext p {
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
 }
 
 
 #abouttext b {
+    font-size: 32px;
+}
+
+h3 {
     font-size: 24px;
 }
 
 #signoff {
     text-align: center;
 }
+
+@media only screen and (max-width: 1917px) {
+    #aboutcontainer {
+        margin-top: 25rem;
+    }
+}
+
+@media only screen and (max-width: 1855px) {
+    #aboutcontainer {
+        margin-top: 25rem;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    #aboutcontainer {
+        margin-top: 25rem;
+    }
+}
+
+@media only screen and (max-width: 1297px) {
+    #aboutcontainer {
+        margin-top: 30rem;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    #aboutcontainer {
+        margin-top: 30rem;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    #aboutcontainer {
+        margin-top: 45rem;
+    }
+}
+
+@media only screen and (max-width: 785px) {
+    #aboutcontainer {
+        margin-top: 45rem;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    #aboutcontainer {
+        margin-top: 45rem;
+    }
+}
+
+@media only screen and (max-width: 456px) {
+    #aboutcontainer {
+        margin-top: 50rem;
+    }
+}
+
+@media only screen and (max-width: 301px) {
+    #aboutcontainer {
+        margin-top: 55rem;
+    }
+}
+
