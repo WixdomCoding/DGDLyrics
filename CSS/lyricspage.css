@@ -4,13 +4,14 @@
   }
 
 html, body {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+    background-color:bisque;
 }
 
 #top {
     margin-top: 2rem;
-
 }
 
 a {
@@ -29,22 +30,33 @@ a {
 }
 
 #sideright {
-    background-color: beige;
-    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    width: 60vw;
+    background: rgb(255,255,230);
+    background: -moz-linear-gradient(180deg, rgba(255,255,230,1) 0%, rgba(242,242,220,1) 95%, rgba(175,175,157,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,230,1) 0%, rgba(242,242,220,1) 95%, rgba(175,175,157,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,230,1) 0%, rgba(242,242,220,1) 95%, rgba(175,175,157,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffe6",endColorstr="#afaf9d",GradientType=1);
 }
 
 #lyricsholder {
-    width: 60%;
+    width: 40%;
     display: flex;
     justify-content: center;
-    background-color: aqua;
+    background-color: beige;
 }
 
 
 #lyrics {
+    padding: 1rem 0 0 10%;
     display: flex;
-    width: 50%;
-    background-color: rgb(39, 189, 195, 0.95);
+    width: 100%;
+    background: rgb(255,228,196);
+    background: -moz-linear-gradient(180deg, rgba(255,228,196,0.4) 0%, rgba(242,217,186,0.4) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,228,196,0.4) 0%, rgba(242,217,186,0.4) 100%);
+    background: linear-gradient(180deg, rgba(255,228,196,0.4) 0%, rgba(242,217,186,0.4) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe4c4",endColorstr="#f2d9ba",GradientType=1);
 }
 
 #lyrics p {
@@ -52,5 +64,23 @@ a {
     font-family: "Archivo", sans-serif;
     font-weight: 700;
     font-size: 2rem;
+}
+
+#songimage img {
+    position: sticky;
+    top: 3rem;
+    height: fit-content;
+    border: solid black;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin: 2rem 0 0 2rem;
+}
+
+#songinfo {
+    position: sticky;
+    top: 1rem;
+    height: fit-content;
+    font-family: "Archivo", sans-serif;
+    margin: 0 5% 0 5%;
+    font-size: 1.4rem;
 }
 
