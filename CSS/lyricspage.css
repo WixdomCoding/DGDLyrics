@@ -7,11 +7,16 @@ html, body {
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
-    background-color:bisque;
+
 }
 
 #top {
-    margin-top: 2rem;
+    padding: 2rem 0 2rem 0;
+    background: rgb(255,228,196);
+    background: -moz-linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(206,183,156,1) 85%, rgba(106,92,76,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(206,183,156,1) 85%, rgba(106,92,76,1) 100%);
+    background: linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(206,183,156,1) 85%, rgba(106,92,76,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe4c4",endColorstr="#6a5c4c",GradientType=1);
 }
 
 a {
@@ -24,7 +29,6 @@ a {
 }
 
 #split {
-    padding-top: 2rem;
     display: flex;
     flex-direction: row;
 }
@@ -41,15 +45,15 @@ a {
 }
 
 #lyricsholder {
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: center;
-    background-color: beige;
+    background: rgb(245,228,196);
 }
 
 
 #lyrics {
-    padding: 1rem 0 0 10%;
+    padding: 0 0 20% 10%;
     display: flex;
     width: 100%;
     background: rgb(255,228,196);
@@ -66,13 +70,21 @@ a {
     font-size: 2rem;
 }
 
-#songimage img {
+#songimage {
     position: sticky;
     top: 3rem;
     height: fit-content;
     border: solid black;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     margin: 2rem 0 0 2rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+
+#songimage img{
+    border: solid black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
 }
 
 #songinfo {
@@ -84,3 +96,9 @@ a {
     font-size: 1.4rem;
 }
 
+#upbutton {
+    display: flex;
+    justify-content: center;
+    margin: none;
+    padding-left: 0px;
+}
