@@ -13,10 +13,10 @@ html, body {
 #top {
     padding: 2rem 0 2rem 0;
     background: rgb(255,228,196);
-    background: -moz-linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(206,183,156,1) 85%, rgba(106,92,76,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(206,183,156,1) 85%, rgba(106,92,76,1) 100%);
-    background: linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(206,183,156,1) 85%, rgba(106,92,76,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe4c4",endColorstr="#6a5c4c",GradientType=1);
+    background: -moz-linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(245,228,196,1) 50%, rgba(136,120,100,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(245,228,196,1) 50%, rgba(136,120,100,1) 100%);
+    background: linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(245,228,196,1) 50%, rgba(136,120,100,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe4c4",endColorstr="#887864",GradientType=1);
 }
 
 a {
