@@ -12,11 +12,8 @@ html, body {
 
 #top {
     padding: 2rem 0 2rem 0;
-    background: rgb(255,228,196);
-    background: -moz-linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(245,228,196,1) 50%, rgba(136,120,100,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(245,228,196,1) 50%, rgba(136,120,100,1) 100%);
-    background: linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(245,228,196,1) 50%, rgba(136,120,100,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe4c4",endColorstr="#887864",GradientType=1);
+    background: rgb(255,255,230);
+
 }
 
 a {
@@ -25,7 +22,7 @@ a {
     font-size: 3rem;
     font-weight: 900;
     text-decoration: none;
-    padding-left: 2rem;
+    padding-left: 5rem;
 }
 
 #split {
@@ -45,14 +42,21 @@ a {
 }
 
 #lyricsholder {
+    border-radius: 0 1rem 0 0;
     width: 50%;
     display: flex;
     justify-content: center;
-    background: rgb(245,228,196);
+    background: rgb(255,228,196);
+    background: -moz-linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(255,228,196,1) 95%, rgba(175,175,157,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(255,228,196,1) 95%, rgba(175,175,157,1) 100%);
+    background: linear-gradient(180deg, rgba(255,228,196,1) 0%, rgba(255,228,196,1) 95%, rgba(175,175,157,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffe4c4",endColorstr="#afaf9d",GradientType=1);
 }
 
 
 #lyrics {
+    border-radius: 0 1rem 0 0;
+
     padding: 0 0 20% 10%;
     display: flex;
     width: 100%;
@@ -101,4 +105,90 @@ a {
     justify-content: center;
     margin: none;
     padding-left: 0px;
+}
+
+@media only screen and (max-width: 1300px) {
+    #sideright {
+        display: flex;
+        flex-direction: column;
+        width: 60vw;
+        background: rgb(255,255,230);
+        background: -moz-linear-gradient(180deg, rgba(255,255,230,1) 0%, rgba(242,242,220,1) 95%, rgba(175,175,157,1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(255,255,230,1) 0%, rgba(242,242,220,1) 95%, rgba(175,175,157,1) 100%);
+        background: linear-gradient(180deg, rgba(255,255,230,1) 0%, rgba(242,242,220,1) 95%, rgba(175,175,157,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffe6",endColorstr="#afaf9d",GradientType=1);
+    }
+    #songimage {
+        position: relative;
+        top: 0rem;
+        height: fit-content;
+        width: fit-content;
+        border: solid black;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        margin: 2rem 0 0 2rem;
+        border-radius: 0rem 0rem 1rem 1rem;
+    }
+    #songinfo {
+        position: relative;
+        top: 1rem;
+        height: fit-content;
+        font-family: "Archivo", sans-serif;
+        margin: 0 5% 0 5%;
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #top {
+        display: flex;
+        justify-content: center;
+        background: rgb(255,255,230);
+    
+    }
+    #split {
+        display: flex;
+        flex-direction: column; 
+    }
+    a {
+        margin-left: -5rem;
+        font-family: "Archivo", sans-serif;
+        color: inherit;
+        font-size: 3rem;
+        font-weight: 900;
+        text-decoration: none;
+    }
+
+    #lyricsholder {
+        border-radius: 0 0 0 0;
+        width: 100vw;
+        background: none;
+    }
+    
+    #sideright {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }    
+    #songimage {
+        position: relative;
+        top: 0rem;
+        height: fit-content;
+        width: fit-content;
+        border: solid black;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        margin: 2rem 0 0 0;
+        border-radius: 0rem 0rem 1rem 1rem;
+    }
+    #lyrics {
+        padding: 0 10% 20% 10%;
+        border-radius: 0 0 0 0;
+        background-color: none;
+        background: rgb(255,228,196);
+
+    }
+    a#upbutton {
+        margin-left: 0;
+    }
 }

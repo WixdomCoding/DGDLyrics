@@ -11,3 +11,19 @@ body {
     padding-right: 5rem;
     padding-left: 5rem;
 }
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.zoomtwo {
+    transition: transform .2s;
+}
+
+.zoomtwo:hover {
+    transform: scale(1.3);
+}
